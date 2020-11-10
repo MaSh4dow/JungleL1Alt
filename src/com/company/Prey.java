@@ -1,18 +1,19 @@
 package com.company;
 
 public class Prey {
-    int AgeNow;
-    int AgeMax;
-    static final int AgeMaxAll = 30;
+    private int AgeNow;
+    private int AgeMax;
+    private static final int AgeMaxAll = 30;
 
-    int NbLifePointsNow;
-    int NbLifePointsMax;
-    static final int NbLifePointsMaxAll = 70;
+    private int NbLifePointsNow;
+    private int NbLifePointsMax;
+    private static final int NbLifePointsMaxAll = 70;
 
-    Hearing hearing;
-    Vision vision;
+    private Hearing hearing;
+    private Vision vision;
+    private Coords coords;
 
-    public void move(){
+    public void moveToFeed(Plant plant){
 
     }
     public void flee(Predator predator){

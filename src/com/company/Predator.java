@@ -1,19 +1,23 @@
 package com.company;
 
 public class Predator {
-    int AgeNow;
-    int AgeMax;
-    static final int AgeMaxAll = 40;
+    private int AgeNow;
+    private int AgeMax;
+    private static final int AgeMaxAll = 40;
 
-    int NbLifePointsNow;
-    int NbLifePointsMax;
-    static final int NbLifePointsMaxAll = 120;
+    private int NbLifePointsNow;
+    private int NbLifePointsMax;
+    private static final int NbLifePointsMaxAll = 120;
 
-    Smelling smelling;
-    Vision vision;
+    private Smelling smelling;
+    private Vision vision;
+    private Coords coords;
 
-    public void move(){
-
+    public Coords move(){
+        Coords coords = new Coords();
+        //Code pour déterminer les nouvelles coordonnées
+        //Par exemple le but à atteindre
+        return coords;
     }
     public void hunt(Prey prey){
 
